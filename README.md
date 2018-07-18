@@ -11,7 +11,7 @@ Only tested on a Windows server, but Linux servers should work fine as well with
 This assumes you have SourceMod installed on your dedicated server. If not, go here: https://wiki.alliedmods.net/Installing_SourceMod
 
 1. Go to sourcemod/configs, open core.cfg, search for the "DisableAutoUpdate" key and set it to "yes". This will prevent SourceMod to update its own gamedata (something that JBEP3 doesn't receive in any official capacity).
-2. Drag and drop the gamedata folder from this Github to your sourcemod folder. It will replace a few files (spefically the `master.games.txt`ones).
+2. Drag and drop the gamedata folder from this Github to your sourcemod folder. It will replace a few files (specifically the `master.games.txt`ones).
 3. Done!
 It should be noted that if you don't do the first step, SourceMod will replace the `master.games.txt` files, thinking that they are outdated and preventing you from using this gamedata.
 
