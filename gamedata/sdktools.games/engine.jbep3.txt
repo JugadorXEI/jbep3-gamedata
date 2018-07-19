@@ -25,16 +25,19 @@
 			{
 				"windows"	"4"
 				"linux"		"4"
+				"mac"		"4"
 			}
 			"GetTENext"
 			{
 				"windows"	"8"
 				"linux"		"8"
+				"mac"		"8"
 			}
 			"TE_GetServerClass"
 			{
 				"windows"	"0"
 				"linux"		"0"
+				"mac"		"0"
 			}
 		}
 
@@ -109,7 +112,7 @@
 	{
 		"Keys"
 		{
-			/* Signature for the beginning of IVEngineServer::CreateFakeClient.
+			/* Signature for the beginning of IVEngineServer::CreateFakeClientEx.
 			 *
 			 * The engine binary is not actually scanned in order to look for
 			 * this. SourceHook is used to used to determine the address of the
@@ -117,7 +120,7 @@
 			 * the expected code. A pointer to sv (IServer interface) is used
 			 * here.
 			 */
-			"CreateFakeClient_Windows"	"\x8B\x44\x24\x2A\x50\xB9\x2A\x2A\x2A\x2A\xE8"
+			"CreateFakeClient_Windows"	"\x55\x8B\xEC\x8B\x2A\x2A\x50\xB9\x2A\x2A\x2A\x2A\xE8"
 		}
 		
 		"Offsets"
@@ -125,7 +128,7 @@
 			/* Offset into IVEngineServer::CreateFakeClient */
 			"sv"
 			{
-				"windows"	"6"
+				"windows"	"8"
 			}
 		}
 
@@ -136,6 +139,7 @@
 			{
 				"library"	"engine"
 				"linux"		"@sv"
+				"mac"		"@sv"
 			}
 		}
 	}
@@ -181,8 +185,9 @@
 			 */
 			"SetUserCvar"
 			{
-				"windows"	"17"
-				"linux"		"55"
+				"windows"	"18"
+				"linux"		"58"
+				"mac"		"58"
 			}
 			/**
 			 * CBaseClient::SetName(char  const*);
@@ -191,8 +196,9 @@
 			 */
 			"SetClientName"
 			{
-				"windows"	"16"
-				"linux"		"54"
+				"windows"	"17"
+				"linux"		"57"
+				"mac"		"57"
 			}
 			/**
 			 * Offset into CBaseClient - Used by CBaseServer::UpdateUserSettings to determine when changes have been made.
@@ -204,6 +210,7 @@
 			{
 				"windows"	"140"
 				"linux"		"140"
+				"mac"		"140"
 			}
 		}
 	}
