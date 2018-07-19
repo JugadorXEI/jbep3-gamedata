@@ -34,4 +34,4 @@ Shoutouts/special thanks to Zero (iamthezero#7483 on Discord) for allowing me to
 
 [Donate to AlliedModders](https://www.sourcemod.net/donate.php) because they are who they keep SourceMod alive, and they're really helpful.
 
-[Feel free to donate to me instead](https://ko-fi.com/jugadorxei) so we can get a better EU JBEP3 server lol.
+<a href='https://ko-fi.com/jugadorxei' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Donate if you think JBEP3 deserves a better EU server.' /></a>
