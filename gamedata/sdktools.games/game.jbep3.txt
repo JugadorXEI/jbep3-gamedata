@@ -7,8 +7,8 @@
 			"CommitSuicide"
 			{
 				"windows"	"443"
-				"linux"		"444"
-				"mac"		"444"
+				"linux"		"443"
+				"mac"		"443"
 			}
 			
 			"PlayerRunCmd"
