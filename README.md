@@ -29,7 +29,7 @@ If you are a server owner, then here's pics instead:
 ...And basically compatibility with everything else that didn't work before.
 
 
-##Credits:
+## Credits:
 Shoutouts/special thanks to Zero (iamthezero#7483 on Discord) for allowing me to get a hold of the mod's Linux binaries with symbols.
 
 [Donate to AlliedModders](https://www.sourcemod.net/donate.php) because they are who they keep SourceMod alive, and they're really helpful.
