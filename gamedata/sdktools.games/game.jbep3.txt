@@ -6,89 +6,103 @@
 		{
 			"CommitSuicide"
 			{
-				"windows"	"443"
-				"linux"		"443"
-				"mac"		"443"
+				"windows"	"448" // +5
+				"linux"		"448"
+				"mac"		"448"
 			}
 			
+			// untested, but looks like it's +5 like everything else
 			"PlayerRunCmd"
 			{
-				"windows"	"421"
-				"linux"		"422"
-				"mac"		"422"
+				"windows"	"426" // +5
+				"linux"		"427"
+				"mac"		"427"
 			}
-			
+
 			"GiveNamedItem"
 			{
-				"windows"	"403"
-				"linux"		"404"
-				"mac"		"404"
+				"windows"	"408" // +5
+				"linux"		"409"
+				"mac"		"409"
 			}
 			
+			// TODO: figure this one out
+			// gave it +4 just in case
 			"RemovePlayerItem"
 			{
-				"windows"	"273"
-				"linux"		"274"
-				"mac"		"274"
+				"windows"	"277"
+				"linux"		"278"
+				"mac"		"278"
 			}
 			
+			// TODO: figure this one out
+			// gave it +4 just in case
 			"Weapon_GetSlot"
 			{
-				"windows"	"271"
-				"linux"		"272"
-				"mac"		"272"
+				"windows"	"275"
+				"linux"		"276"
+				"mac"		"276"
 			}
 			
+			// TODO: figure this one out
+			// gave it +4 just in case
 			"WeaponEquip"
 			{
-				"windows"	"264"
-				"linux"		"265"
-				"mac"		"265"
+				"windows"	"268"
+				"linux"		"269"
+				"mac"		"269"
 			}
 			
+			// TODO: figure this one out
+			// gave it +4 just in case
 			"GiveAmmo"
 			{
-				"windows"	"255"
-				"linux"		"256"
-				"mac"		"256"
+				"windows"	"259"
+				"linux"		"260"
+				"mac"		"260"
 			}
 			
 			"Extinguish"
 			{
-				"windows"	"216"
-				"linux"		"217"
-				"mac"		"217"
+				"windows"	"220" // +4
+				"linux"		"221"
+				"mac"		"221"
 			}
 			
 			"Ignite"
 			{
-				"windows"	"212"
-				"linux"		"213"
-				"mac"		"213"
+				"windows"	"216" // +4
+				"linux"		"217"
+				"mac"		"217"
 			}
 			
+			// TODO: figure this one out
+			// gave it +4 just in case.
 			"GetVelocity"
 			{
-				"windows"	"140"
-				"linux"		"141"
-				"mac"		"141"
+				"windows"	"144"
+				"linux"		"145"
+				"mac"		"145"
 			}
 
+			// TODO: figure this one out
 			"EyeAngles"
 			{
-				"windows"	"131"
-				"linux"		"132"
-				"mac"		"132"
+				// I honestly went for up to 150 on this and it doesn't work, wtf
+				// these ones don't crash but it doesn't work so good luck
+				"windows"	"150" 
+				"linux"		"151"
+				"mac"		"151"
 			}
 
 			"Teleport"
 			{
-				"windows"	"108"
-				"linux"		"109"
-				"mac"		"109"
+				"windows"	"111" //  +4
+				"linux"		"112"
+				"mac"		"112"
 			}
 
-
+			// these ones below should still work without changes
 			"AcceptInput"
 			{
 				"windows"	"36"
